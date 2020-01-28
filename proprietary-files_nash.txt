@@ -8,6 +8,11 @@ vendor/etc/acdbdata/Headset_cal.acdb|872558435fc183bc19913b7ed771a53e2ff4f199
 vendor/etc/acdbdata/Speaker_cal.acdb|ef6af0c368f98ebffdd6b1108b4fa53a931287ce
 
 # Camera
+-app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+etc/permissions/privapp-permissions-com.motorola.camera2.xml
+-priv-app/MotCamera2/MotCamera2.apk;PRESIGNED
+vendor/bin/vl53l1_daemon
+vendor/lib64/libvl53l1_daemon.so
 etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
 etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
@@ -40,6 +45,16 @@ lib/lib_mot_app6_metadata.so:vendor/lib/lib_mot_app6_metadata.so
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/libmot_afd.so
 vendor/lib/lib_motsensorlistener.so
+vendor/lib/libmcf-qc-fd-offline.so
+
+# Camera - from Oreo
+vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
+vendor/lib/libmmcamera_chromaflash_lib.so|c52a741a2f38b5581d9ece2e4827f28dc973249d
+vendor/lib/libmmcamera_dummyalgo.so|7792ae493f63a95a148b81d32246afa44328d538
+vendor/lib/libmmcamera_trueportrait_lib.so|22af6adde254c7405eed1d97fd7eea9836e4a99c
+vendor/lib/liboptizoom.so|1e92993743636c045438f1f15c07c1e835d9ca46
+vendor/lib/libseemore.so|e5fa2e335cc8e1c9e173b2b9794f208143c2fe3b
+vendor/lib/libubifocus.so|833a305c780b2e7e338323c5ba27cb042f5cc3ed
 
 # Camera - Chromatix
 vendor/lib/libchromatix_imx386_4k_video_3a.so

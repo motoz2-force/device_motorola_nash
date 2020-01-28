@@ -200,12 +200,6 @@ vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
-# GPS - gnss@2.0 from payton PPWS29.69-26-6
-vendor/bin/hw/vendor.qti.gnss@2.0-service|a4ee4d610a4200b2869da23147712d98e08787b3
-vendor/etc/init/vendor.qti.gnss@2.0-service.rc|5fef1b6f19950a06dc1ffd11f161f9587bb84054
-vendor/lib/hw/vendor.qti.gnss@2.0-impl.so|b9a51f63b32a002ad86c9a07e01fae8efa4b16ce
-vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so|933a8e4c9333fee5e05612ed6cc87a0e0e0150a0
-
 # GPS
 vendor/bin/garden_app
 vendor/bin/loc_launcher
@@ -457,8 +451,6 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libdisp-aba.so
 
 # QMI
-etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
-etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
 -vendor/lib/libdsi_netctrl.so
@@ -475,7 +467,6 @@ vendor/lib/libqmi_client_qmux.so
 -vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
-vendor/lib/libquipc_os_api.so
 vendor/lib64/libdiag.so
 -vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
@@ -491,7 +482,6 @@ vendor/lib64/libqmi_client_qmux.so
 -vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
-vendor/lib64/libquipc_os_api.so
 
 # Radio
 -product/app/datastatusnotification/datastatusnotification.apk
@@ -617,7 +607,7 @@ vendor/radio/qcril_database/upgrade/6_version_qcrildb.sql
 vendor/radio/qcril_database/upgrade/9_version_qcrildb.sql
 
 # Radio - IMS
--priv-app/ims/ims.apk
+-product/priv-app/ims/ims.apk
 product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
 product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
 product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar
